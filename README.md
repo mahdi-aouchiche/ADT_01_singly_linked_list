@@ -2,10 +2,11 @@
 
 Author: Mahdi Aouchiche (https://github.com/mahdi-aouchiche/ADT_01_singly_linked_list)
 
-* Implementation of Singly Linked List in an exmple.
+* Implementation of Singly Linked List in an example.
 * The example is to create a song playlist which holds records of data.
 * A new node is created for each song which holds the song data.
 * A playlist of songs is represented by a singly linked list of all the song nodes.
+* Google unit testing "Gtest" is added to verify the functionality of the class functions. 
 * The user interface allows to:
     1. ***Create new song.***
     2. ***Delete a song.***
@@ -21,8 +22,11 @@ cd build
 cmake ..
 make 
 ```
-### 1 executable is created, use the following command to run the executable: ###
+### 2 executables are created, use the following commands to run an executable: ###
 ```c++
+// run the unit tests
+./playlist_test
+
 // run the code
 ./playlist
 ```
